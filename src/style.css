@@ -1,4 +1,5 @@
-.game-container {
+body {
+    padding: 0;
     color: white;
     background-color: black;
 }

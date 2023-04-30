@@ -5,7 +5,7 @@ import './style.css';
    const element = document.createElement('div');
 
    // Lodash, now imported by this script
-   element.innerHTML = _.join(['Any', 'gamers?'], ' ');
+   element.innerHTML = _.join(['Any', 'gamers?', 'test'], ' ');
    element.classList.add('game-container');
 
    return element;
