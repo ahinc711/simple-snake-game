@@ -6,14 +6,15 @@ body {
 }
 
 .game-container {
-    display: flex;
-    flex-direction: column;
-    height: 1vw;
+    border: 1px solid white;
+    margin: auto;
+    height: min-content;
+    width: min-content;
 }
 
 .row {
     display: flex;
-    height: 30px;
+    justify-content: center;
     width: 100%;
 }
 
@@ -30,6 +31,20 @@ body {
 
 .error {
     background-color: darkred;
+    height: 30px;
+    line-height: 30px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.gameOver {
+    background-color: blue;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
